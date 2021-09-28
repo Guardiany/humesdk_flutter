@@ -36,6 +36,6 @@ dependencies {
 await HumesdkFlutter.sdkVersion;
 ```
 #### 2、获取渠道号
-```
+```Dart
 await HumesdkFlutter.channel;
 ```
