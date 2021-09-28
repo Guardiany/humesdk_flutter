@@ -36,8 +36,6 @@ dependencies {
 await HumesdkFlutter.sdkVersion;
 ```
 #### 2、获取渠道号
+```
 await HumesdkFlutter.channel;
 ```
-
-## 联系方式
-* Email: 1204493146@qq.com
