@@ -22,7 +22,12 @@ class HumesdkFlutter {
 
   ///获取渠道号
   static Future<String?> get channel async {
-    final String? result = await _channel.invokeMethod('getChannel');
-    return result;
+    if (Platform.isAndroid) {
+      final String? result = await _channel.invokeMethod('getChannel');
+      return result;
+    }
+    if (Platform.isIOS) {
+      return 'appStore';
+    }
   }
 }
