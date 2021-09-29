@@ -27,7 +27,7 @@ class HumesdkFlutter {
       return result;
     }
     if (Platform.isIOS) {
-      return 'appStore';
+      return '';
     }
   }
 }
